@@ -7,9 +7,29 @@
         "@amap/amap-maps-mcp-server"
       ],
       "env": {
-        "AMAP_MAPS_API_KEY": "your-api-key"
+        "AMAP_MAPS_API_KEY": "533be8840788b7305498b54ba460d0f1"
       }
     },
+    "12306-mcp": {
+      "type": "sse",
+      "url": "https://mcp.api-inference.modelscope.net/832899cec6f945/sse"
+    }，
+    "jina-mcp-tools": {
+      "args": [
+        "jina-mcp-tools"
+      ],
+      "command": "npx",
+      "env": {
+        "JINA_API_KEY": "jina_e256de6bf0bc4a4cbad46f47c6f7c25aYcMzDOv2Y69s63JfiaUEbpt40NQf"
+      }
+    }，
+        "howtocook-mcp": {
+      "args": [
+        "-y",
+        "howtocook-mcp"
+      ],
+      "command": "npx"
+    }，
     "playwright": {
       "command": "npx",
       "args": [
